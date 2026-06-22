@@ -605,25 +605,18 @@ def apply_chart_theme(fig: go.Figure, height: int = 420, legend_title: str | Non
         plot_bgcolor=THEME["surface"],
         font=dict(color=THEME["text"], family="Inter, Segoe UI, sans-serif"),
         title_font=dict(size=20, color=THEME["text"]),
-        margin=dict(l=20, r=20, t=100, b=20),  # <-- 60 se 100
-
+        margin=dict(l=20, r=20, t=60, b=20),
         legend=dict(
             orientation="h",
             yanchor="bottom",
-            y=1.12,          # <-- 1.02 se 1.12
-            xanchor="center",
-            x=0.5,           # <-- center
+            y=1.02,
+            xanchor="right",
+            x=1,
             bgcolor="rgba(0,0,0,0)",
             font=dict(color=THEME["muted"]),
-            title_text="",   # <-- Country title remove
+            title=legend_title,
         ),
-
-        hoverlabel=dict(
-            bgcolor="#0E130D",
-            bordercolor=THEME["demand"],
-            font_color=THEME["text"]
-        ),
-
+        hoverlabel=dict(bgcolor="#0E130D", bordercolor=THEME["demand"], font_color=THEME["text"]),
         xaxis=dict(
             showgrid=True,
             gridcolor=THEME["grid"],
@@ -631,7 +624,6 @@ def apply_chart_theme(fig: go.Figure, height: int = 420, legend_title: str | Non
             title_font=dict(color=THEME["muted"]),
             tickfont=dict(color=THEME["muted"]),
         ),
-
         yaxis=dict(
             showgrid=True,
             gridcolor=THEME["grid"],
@@ -1329,7 +1321,18 @@ with tab2:
             hovertemplate="<b>%{y}</b><br>Country: %{customdata[0]}<br>Priority Score: %{x:.2f}<br>Coverage Gap: %{customdata[1]:.2f}<br>EV Registrations: %{customdata[3]:.1f}<br>Infra Status: %{customdata[4]}<extra></extra>",
         )
         apply_chart_theme(fig, height=560)
-        fig.update_layout(legend_title_text="Country")
+        fig.update_layout(
+            legend=dict(
+                title=None,
+                orientation="h",
+                yanchor="top",
+                y=-0.08,
+                xanchor="center",
+                x=0.5,
+                bgcolor="rgba(0,0,0,0)",
+                font=dict(color=THEME["muted"]),
+            )
+        )
         st.plotly_chart(fig, use_container_width=True)
 
     with pc2:
@@ -1365,7 +1368,20 @@ with tab2:
         )
         fig_bubble.update_traces(marker=dict(line=dict(width=1, color="#D7FFD4"), opacity=0.82))
         apply_chart_theme(fig_bubble, height=560)
-        fig_bubble.update_layout(legend_title_text="Country")
+        fig_bubble.update_layout(
+            legend=dict(
+                title=None,
+                orientation="v",
+                yanchor="top",
+                y=0.98,
+                xanchor="left",
+                x=1.01,
+                bgcolor="rgba(10,14,9,0.80)",
+                bordercolor="rgba(118,185,0,0.18)",
+                borderwidth=1,
+                font=dict(color=THEME["muted"], size=11),
+            )
+        )
         st.plotly_chart(fig_bubble, use_container_width=True)
 
     section_header(
