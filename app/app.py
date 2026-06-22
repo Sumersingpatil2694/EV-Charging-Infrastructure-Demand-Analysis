@@ -1322,15 +1322,18 @@ with tab2:
         )
         apply_chart_theme(fig, height=560)
         fig.update_layout(
+            title=dict(x=0.5, xanchor="center"),
             legend=dict(
                 title=None,
-                orientation="h",
+                orientation="v",
                 yanchor="top",
-                y=-0.08,
-                xanchor="center",
-                x=0.5,
-                bgcolor="rgba(0,0,0,0)",
-                font=dict(color=THEME["muted"]),
+                y=0.98,
+                xanchor="left",
+                x=1.01,
+                bgcolor="rgba(10,14,9,0.80)",
+                bordercolor="rgba(118,185,0,0.18)",
+                borderwidth=1,
+                font=dict(color=THEME["muted"], size=11),
             )
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -1369,6 +1372,7 @@ with tab2:
         fig_bubble.update_traces(marker=dict(line=dict(width=1, color="#D7FFD4"), opacity=0.82))
         apply_chart_theme(fig_bubble, height=560)
         fig_bubble.update_layout(
+            title=dict(x=0.5, xanchor="center"),
             legend=dict(
                 title=None,
                 orientation="v",
