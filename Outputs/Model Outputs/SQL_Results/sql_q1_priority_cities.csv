@@ -1,0 +1,16 @@
+country,city,avg_priority_score,avg_coverage_gap,avg_ev_registrations,avg_charging_stations,infra_status
+Romania,Brașov,104.25,228.83,16.2,4.8,Critical Gap
+Romania,Cluj-Napoca,91.4,199.37,4.8,6.6,Critical Gap
+Romania,Iași,91.07,196.81,16.2,9.4,Critical Gap
+Romania,Timișoara,88.91,192.97,16.4,10.3,Critical Gap
+Poland,Katowice,78.13,161.64,4.9,8.4,Critical Gap
+United  Kingdom,Nottingham,74.99,0.99,74.0,452.0,Needs Attention
+Romania,Bucharest,74.56,154.36,46.2,55.8,Critical Gap
+Poland,Gdynia,74.35,155.77,3.7,6.8,Critical Gap
+Poland,Gdańsk,74.07,152.76,9.3,22.0,Critical Gap
+Poland,Gliwice,70.61,145.6,3.3,9.6,Critical Gap
+Poland,Łódź,69.34,143.3,15.6,32.8,Critical Gap
+Slovakia,Nitra,68.87,144.94,14.7,7.0,Critical Gap
+Poland,Kraków,68.77,139.44,17.5,36.8,Critical Gap
+Poland,Wrocław,68.36,139.38,13.6,36.5,Critical Gap
+Poland,Warsaw,67.98,139.52,38.0,67.3,Critical Gap
