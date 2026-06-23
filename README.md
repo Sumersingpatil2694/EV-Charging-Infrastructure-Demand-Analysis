@@ -499,9 +499,9 @@ LIMIT 10;
 
 ### Project Links
 
-- **Repository**: [Add your GitHub repo link here](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis)
-- **Live Demo**: [Add your Streamlit deployment link here](https://ev-charging-infrastructure-demand-analysis-june-2026.streamlit.app/)
-- **Power BI Dashboard**: [Add your Power BI share link here](https://app.powerbi.com/)
+- **Repository**: [GitHub repo](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis)
+- **Live Demo**: [Streamlit Live Demo](https://ev-charging-infrastructure-demand-analysis-june-2026.streamlit.app/)
+- **Power BI Dashboard**: [Power BI](https://app.powerbi.com/)
 
 ---
 
