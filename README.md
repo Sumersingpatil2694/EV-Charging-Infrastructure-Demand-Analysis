@@ -1,4 +1,4 @@
-# 🔋 EV Charging Station Demand Analysis
+# 🔋  EV Charging Infrastructure Demand Analysis
 
 <div align="center">
 
@@ -38,7 +38,7 @@
 
 ## 🎯 Introduction
 
-**EV Charging Station Demand Analysis** is a premium dark-theme analytics project designed to study **EV adoption**, **charging infrastructure adequacy**, and **investment priority** across European city-level markets. The solution combines a **Streamlit dashboard**, **MySQL database**, **SQL analytical views**, **CSV-based exploration**, and a **Jupyter notebook workflow** to support smarter charging network expansion.
+**EV Charging Infrastructure Demand Analysis** is a premium dark-theme analytics project designed to study **EV adoption**, **charging infrastructure adequacy**, and **investment priority** across European city-level markets. The solution combines a **Streamlit dashboard**, **MySQL database**, **SQL analytical views**, **CSV-based exploration**, and a **Jupyter notebook workflow** to support smarter charging network expansion.
 
 The project follows a practical analytics pipeline: EV data is loaded from CSV → cleaned and standardized → stored in MySQL → queried through reusable SQL views → presented in an interactive Streamlit dashboard with KPIs, filters, trends, maps, and downloadable insights.
 
