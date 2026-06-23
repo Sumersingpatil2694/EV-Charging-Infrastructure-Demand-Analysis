@@ -435,7 +435,7 @@ LIMIT 10;
 
 ## 📸 Screenshots
 
-> Replace the image paths below with your actual uploaded Streamlit screenshots.
+>  Screenshots below are taken from the live Streamlit deployment. Click the Live Demo link above to explore the interactive dashboard.
 
 ### 🏠 Dashboard Home / Overview
 ![Overview](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/Dashboard%20Home%20Overview.png)
@@ -472,24 +472,6 @@ LIMIT 10;
 
 ### 📋 Executive Summary View
 ![Executive Summary](Screenshots/PowerBI/executive-summary.png)
-
----
-
-## 🖼️ Project Screenshots
-
-> Yahan notebook outputs, SQL results, dataset preview, ya deployment screenshots add kar sakte ho.
-
-### 📓 Notebook Analysis
-![Notebook Analysis](Screenshots/Project/notebook-analysis.png)
-
-### 🗄️ SQL Query Output
-![SQL Output](Screenshots/Project/sql-output.png)
-
-### 📁 Dataset Preview
-![Dataset Preview](Screenshots/Project/dataset-preview.png)
-
-### 🚀 Streamlit Deployment
-![Deployment](Screenshots/Project/deployment.png)
 
 ---
 
