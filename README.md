@@ -10,7 +10,7 @@
 
 **An end-to-end EV infrastructure analytics project that analyzes charging demand, identifies priority investment cities, and visualizes infrastructure gaps across city-level EV markets**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Power BI Screenshots](#-power-bi-screenshots)
+[Live Demo](https://ev-charging-infrastructure-demand-analysis-june-2026.streamlit.app/) • [Features](#-features) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Power BI Screenshots](#-power-bi-screenshots)
 
 </div>
 
