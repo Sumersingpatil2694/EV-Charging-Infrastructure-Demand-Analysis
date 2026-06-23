@@ -1,0 +1,4 @@
+Model,Type,Algorithm,R²,CV R² (5F),MAE,RMSE,Note
+EV Registrations Forecast,Regression,RandomForest,0.8336,0.7541,6.4,44.9,Primary forecasting model
+Infra Status Classifier,Classification,RandomForest,—,0.767,—,—,"Accuracy=0.884, F1=0.874"
+Priority Score Predictor,Regression,RandomForest,0.9885,0.7596,1.065,2.284,Score replication — high R² expected
