@@ -438,22 +438,22 @@ LIMIT 10;
 > Replace the image paths below with your actual uploaded Streamlit screenshots.
 
 ### 🏠 Dashboard Home / Overview
-![Overview](Screenshots/Project/overview.png)
+![Overview](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/Dashboard%20Home%20Overview.png)
 
 ### 🏙️ Priority Cities
-![Priority Cities](Screenshots/Project/priority-cities.png)
+![Priority Cities](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/Priority%20Cities.png)
 
 ### 📈 Trends Analysis
-![Trends](Screenshots/Project/trends.png)
+![Trends](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/Trends%20Analysis.png)
 
 ### 🗺️ Geographic Analysis
-![Geography](Screenshots/Project/geography.png)
+![Geography](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/Geographic%20Analysis.png)
 
 ### 🔍 SQL Insights
-![SQL Insights](Screenshots/Project/sql-insights.png)
+![SQL Insights](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/SQL%20Insights.png)
 
 ### 📉 Forecast View
-![Forecast](Screenshots/Project/forecast.png)
+![Forecast](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Screenshots/Forecast%20View.png)
 
 ---
 
