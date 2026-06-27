@@ -513,22 +513,4 @@ LIMIT 10;
 - **Pandas / NumPy / Scikit-learn** — Python analytics ecosystem
 - **Power BI** — stakeholder-friendly BI storytelling
 
----
-
-## ❓ FAQ
-
-### Does this project require MySQL?
-No. The dashboard can run from CSV input, but MySQL is recommended for the SQL analytics workflow.
-
-### Is forecasting mandatory?
-No. The forecast section is optional and becomes active only when compatible forecast files are provided.
-
-### Can I add Power BI visuals to this project?
-Yes. Use the dedicated **Power BI Screenshots** section or add your Power BI share link in the Project Links section.
-
-### Is this project portfolio-ready?
-Yes. It demonstrates Python, SQL, Streamlit, visualization, and business insight generation in one end-to-end workflow.
-
----
-
 ### ⭐ If you found this project useful, give it a star! ⭐
