@@ -71,7 +71,7 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 
 ### 🎨 Dashboard Experience
 
-- 🌙 **Dark Premium Theme** with NVIDIA-inspired black and neon-green design language
+- 🌙 **Dark Premium Theme** with black and neon-green design language
 - ⚡ **Executive KPI Cards** for EV demand, infrastructure availability, and coverage gaps
 - 🧭 **Advanced Sidebar Filters** for geography, timeline, city tier, infrastructure status, and EV-per-station stress
 - 🗺️ **Map-based Analytics** using latitude/longitude city points
