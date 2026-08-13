@@ -461,19 +461,19 @@ LIMIT 10;
 
 ### ⚡ Executive Overview
 
-![Executive Overview](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/1.Executive%20Overview.png)
+![Executive Overview](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/BI%20Screenshots/1.Executive%20Overview.png)
 
 ### 🏗️ Infrastructure & Priority Analysis
 
-![Infrastructure & Priority Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/2.Infrastructure%20%26%20Priority%20Analysis.png)
+![Infrastructure & Priority Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/BI%20Screenshots/2.Infrastructure%20%26%20Priority%20Analysis.png)
 
 ### 📈 Growth & Forecasting
 
-![Growth & Forecasting](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/3.Growth%20%26%20Forecasting.png)
+![Growth & Forecasting](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/BI%20Screenshots/3.Growth%20%26%20Forecasting.png)
 
 ### 🌍 Country Analysis
 
-![Country Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/4.Country%20Analysis.png)
+![Country Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/BI%20Screenshots/4.Country%20Analysis.png)
 
 ---
 
