@@ -459,19 +459,21 @@ LIMIT 10;
 
 ## 📊 Power BI Screenshots
 
-> Is section mein aap apne Power BI dashboard ke screenshots bilkul isi structure mein add kar sakte ho.
+### ⚡ Executive Overview
 
-### 📌 Power BI Dashboard Overview
-![Power BI Overview](Screenshots/PowerBI/dashboard-overview.png)
+![Executive Overview](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/1.Executive%20Overview.png)
 
-### 🌍 Country-Level EV Analysis
-![Country Analysis](Screenshots/PowerBI/country-analysis.png)
+### 🏗️ Infrastructure & Priority Analysis
 
-### 🏙️ City Gap / Priority Analysis
-![City Gap Analysis](Screenshots/PowerBI/city-gap-analysis.png)
+![Infrastructure & Priority Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/2.Infrastructure%20%26%20Priority%20Analysis.png)
 
-### 📋 Executive Summary View
-![Executive Summary](Screenshots/PowerBI/executive-summary.png)
+### 📈 Growth & Forecasting
+
+![Growth & Forecasting](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/3.Growth%20%26%20Forecasting.png)
+
+### 🌍 Country Analysis
+
+![Country Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/4.Country%20Analysis.png)
 
 ---
 
