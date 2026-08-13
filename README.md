@@ -10,7 +10,7 @@
 
 **An end-to-end EV infrastructure analytics project that analyzes charging demand, identifies priority investment cities, and visualizes infrastructure gaps across city-level EV markets**
 
-[Live Demo](https://ev-charging-infrastructure-demand-analysis-june-2026.streamlit.app/) • [Features](#-features) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Power BI dashboards](#-power-bi-screenshots)
+[Live Demo](https://ev-charging-infrastructure-demand-analysis-june-2026.streamlit.app/) • [Features](#-features) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Power BI Dashboard](#-power-bi-dashboard)
 
 </div>
 
@@ -29,8 +29,7 @@
 - [Database & SQL Views](#️-database--sql-views)
 - [Function Reference](#-function-reference)
 - [Screenshots](#-screenshots)
-- [Power BI Screenshots](#-power-bi-screenshots)
-- [Project Screenshots](#-project-screenshots)
+- [Power BI Dashboard](#-power-bi-dashboard)
 - [Future Enhancements](#-future-enhancements)
 - [Contact](#-contact)
 
@@ -50,7 +49,7 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 - ✅ **6 SQL analytical views** for business-ready EV infrastructure insights
 - ✅ **Premium NVIDIA-inspired UI** with black + neon green theme styling
 - ✅ **CSV export support** for filtered records and priority city summaries
-- ✅ **Power BI screenshot section included** for portfolio-ready documentation
+- ✅ **4-page Power BI dashboard** (Executive Overview, Infrastructure & Priority, Growth & Forecasting, Country Analysis) with a matching dark "EV Command" theme
 
 ---
 
@@ -108,6 +107,9 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 ### Database
 - **MySQL 8.0+** — EV analytics storage layer
 - **SQL Views** — reusable business insight layer
+
+### Business Intelligence
+- **Power BI** — 4-page executive dashboard (Overview, Infrastructure & Priority, Growth & Forecasting, Country Analysis) for stakeholder-facing storytelling alongside the Streamlit app
 
 ### Notebook Workflow
 - **Jupyter Notebook** — exploratory analysis and experimentation
@@ -346,12 +348,14 @@ ev-charging-demand-analysis/
 │   │   ├── geography.png
 │   │   ├── sql-insights.png
 │   │   └── forecast.png
-│   │
-│   └── PowerBI/
-│       ├── dashboard-overview.png
-│       ├── country-analysis.png
-│       ├── city-gap-analysis.png
-│       └── executive-summary.png
+│
+├── Power BI Dashboards/
+│   ├── EV_Charging_Infrastructure_Power_BI_Dashboard.pbix
+│   └── Screenshots/
+│       ├── 1_Executive_Overview.png
+│       ├── 2_Infrastructure___Priority_Analysis.png
+│       ├── 3_Growth___Forecasting.png
+│       └── 4_Country_Analysis.png
 │
 └── optional/
     ├── forecast.csv
@@ -369,7 +373,8 @@ ev-charging-demand-analysis/
 | `EV_Charging_Analysis.ipynb` | Notebook for analysis and experimentation |
 | `requirements.txt` | Python dependencies |
 | `.env` | Local environment variables for MySQL |
-| `Screenshots/` | Folder for Streamlit and Power BI screenshots |
+| `Screenshots/` | Folder for Streamlit dashboard screenshots |
+| `Power BI Dashboards/` | Power BI `.pbix` file and its dashboard screenshots |
 
 ---
 
@@ -457,21 +462,36 @@ LIMIT 10;
 
 ---
 
-## 📊 Power BI Screenshots
+## 📊 Power BI Dashboard
+
+A **4-page, dark-themed Power BI companion dashboard** — built around a consistent **"EV Command"** navigation console — gives stakeholders a click-and-filter BI experience alongside the Streamlit app. Every page shares the same sidebar (Executive Overview · Infrastructure & Priority Analysis · Growth & Forecasting · Country Analysis · Reports · Settings) and global filters for **Year**, **Country**, and **City Tier**.
+
+**File:** [`EV_Charging_Infrastructure_Power_BI_Dashboard.pbix`](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/EV%20Charging%20Infrastructure%20Power%20BI%20Dashboard.pbix)
+
+| Page | What it shows |
+|------|----------------|
+| **⚡ Executive Overview** | Market-wide KPIs — total EV registrations, cities, charging stations, average EVs per station, and average coverage gap — plus an infrastructure-priority callout, city-by-country and registration-by-country breakdowns, monthly registration trend, and an infrastructure-status donut |
+| **🏗️ Infrastructure & Priority Analysis** | A Bing map plotting every city colored by infrastructure status, the Top 10 priority cities ranked by priority score, coverage gap by infrastructure status, and average priority score by status |
+| **📈 Growth & Forecasting** | Latest EV growth %, station growth %, EVs-per-station, and registration KPIs, with 2021–2025 trend lines for charging infrastructure growth, EV growth rate by year, registration growth, and the EVs-per-station ratio over time |
+| **🌍 Country Analysis** | Country-level KPIs with Top 10 country rankings by registrations, charging stations, and coverage gap, average coverage gap by country, an infrastructure-status donut, and a sortable country performance summary table |
 
 ### ⚡ Executive Overview
+Tracks **792.53K** total EV registrations across **227** cities and **9.13M** charging stations, with an average of **56.05 EVs per station** and a **35.57** average coverage gap. A priority callout flags that **75% of markets need infrastructure expansion**, backed by city and registration breakdowns for Germany, the Netherlands, the UK, Spain, France, and Italy, a monthly registration trend line, and an infrastructure-status donut (Needs Attention 40.68% · Critical Gap 34.17% · Adequate 25.15%).
 
 ![Executive Overview](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/Power%20BI%20Dashboards%20Screenshots/01_Executive_Overview.png)
 
 ### 🏗️ Infrastructure & Priority Analysis
+An interactive map plots every city colored by infrastructure status (Adequate / Critical Gap / Needs Attention), paired with a Top 10 Priority Cities ranking (led by Brașov, Cluj-Napoca, and Iași), coverage gap by infrastructure status, and average priority score by status — cities marked *Critical Gap* average a priority score of **48**, more than double *Needs Attention* (18) and *Adequate* (10).
 
 ![Infrastructure & Priority Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/Power%20BI%20Dashboards%20Screenshots/02_Infrastructure_Priority_Analysis.png)
 
 ### 📈 Growth & Forecasting
+Surfaces the latest momentum — **19.36%** EV growth, **21.09%** charging-station growth, **55.55** EVs per station, and **33.69K** registrations — alongside 2021–2025 trends for charging infrastructure growth, year-over-year EV growth rate, registration growth, and a steadily declining EVs-per-station ratio, signaling that station rollout is starting to outpace demand.
 
 ![Growth & Forecasting](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/Power%20BI%20Dashboards%20Screenshots/03_Growth_Forecasting.png)
 
 ### 🌍 Country Analysis
+A country-level drill-down (filterable by City Tier, shown here for Tier 2) covering **279.02K** registrations across **24** countries, with Top 10 country rankings by registrations, charging stations, and coverage gap, average coverage gap by country (Romania and Poland lead), an infrastructure-status donut, and a full country performance summary table.
 
 ![Country Analysis](https://github.com/Sumersingpatil2694/EV-Charging-Infrastructure-Demand-Analysis/blob/main/Power%20BI%20Dashboards/Power%20BI%20Dashboards%20Screenshots/04_Country_Analysis.png)
 
