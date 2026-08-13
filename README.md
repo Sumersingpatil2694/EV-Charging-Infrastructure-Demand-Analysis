@@ -438,7 +438,7 @@ LIMIT 10;
 
 ---
 
-## 📸 Screenshots
+## 📸 App Screenshots
 
 >  Screenshots below are taken from the live Streamlit deployment. Click the Live Demo link above to explore the interactive dashboard.
 
