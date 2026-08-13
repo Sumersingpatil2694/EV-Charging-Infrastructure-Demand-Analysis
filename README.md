@@ -515,8 +515,8 @@ A country-level drill-down (filterable by City Tier, shown here for Tier 2) cove
 ### Developer Information
 
 **Sumersing Patil**
-- 🐙 GitHub: [Sumersingpatil2694](https://github.com/Sumersingpatil2694)
 - 💼 LinkedIn: [Sumersing-patil](https://www.linkedin.com/in/sumersing-patil-ai/)
+- 🐙 GitHub: [Sumersingpatil2694](https://github.com/Sumersingpatil2694)
 - 📧 Email: sumerrajput0193@gmail.com
 
 ### Project Links
