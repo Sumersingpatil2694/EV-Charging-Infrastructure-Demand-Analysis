@@ -1561,7 +1561,7 @@ with tab4:
             format_func=pretty_label,
         )
 
-        fig_map = px.scatter_mapbox(
+        fig_map = px.scatter_map(
             city_map,
             lat="lat",
             lon="lon",
@@ -1582,7 +1582,7 @@ with tab4:
                 "lon": False,
             },
             title="Europe EV Infrastructure Map",
-            mapbox_style="carto-darkmatter",
+            map_style="carto-darkmatter",
             height=620,
         )
         fig_map.update_layout(
