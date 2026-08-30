@@ -43,13 +43,13 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 
 ### 🌟 Why This Project Stands Out
 
-- ✅ **14,120+ records** in the provided EV dataset
-- ✅ **27 analytical fields** covering EV demand, station density, coverage gap, growth, and priority score
-- ✅ **8 dashboard sections** including overview, priority cities, trends, geography, feature intelligence, SQL insights, forecast, and about
-- ✅ **6 SQL analytical views** for business-ready EV infrastructure insights
-- ✅ **Premium NVIDIA-inspired UI** with black + neon green theme styling
-- ✅ **CSV export support** for filtered records and priority city summaries
-- ✅ **4-page Power BI dashboard** (Executive Overview, Infrastructure & Priority, Growth & Forecasting, Country Analysis) with a matching dark "EV Command" theme
+-  **14,120+ records** in the provided EV dataset
+-  **27 analytical fields** covering EV demand, station density, coverage gap, growth, and priority score
+-  **8 dashboard sections** including overview, priority cities, trends, geography, feature intelligence, SQL insights, forecast, and about
+-  **6 SQL analytical views** for business-ready EV infrastructure insights
+-  **Premium NVIDIA-inspired UI** with black + neon green theme styling
+-  **CSV export support** for filtered records and priority city summaries
+-  **4-page Power BI dashboard** (Executive Overview, Infrastructure & Priority, Growth & Forecasting, Country Analysis) with a matching dark "EV Command" theme
 
 ---
 
@@ -70,12 +70,12 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 
 ### 🎨 Dashboard Experience
 
-- 🌙 **Dark Premium Theme** with black and neon-green design language
-- ⚡ **Executive KPI Cards** for EV demand, infrastructure availability, and coverage gaps
-- 🧭 **Advanced Sidebar Filters** for geography, timeline, city tier, infrastructure status, and EV-per-station stress
-- 🗺️ **Map-based Analytics** using latitude/longitude city points
-- 📊 **Interactive Plotly Visuals** including bar, line, pie, bubble, and map charts
-- ⬇️ **Download Actions** for quick export of filtered business insights
+-  **Dark Premium Theme** with black and neon-green design language
+-  **Executive KPI Cards** for EV demand, infrastructure availability, and coverage gaps
+-  **Advanced Sidebar Filters** for geography, timeline, city tier, infrastructure status, and EV-per-station stress
+-  **Map-based Analytics** using latitude/longitude city points
+-  **Interactive Plotly Visuals** including bar, line, pie, bubble, and map charts
+-  **Download Actions** for quick export of filtered business insights
 
 ### 📊 Analytical Highlights
 
