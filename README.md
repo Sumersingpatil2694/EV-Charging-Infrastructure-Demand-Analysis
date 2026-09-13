@@ -527,7 +527,7 @@ A country-level drill-down (filterable by City Tier, shown here for Tier 2) cove
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Streamlit** — interactive dashboard framework
 - **Plotly** — advanced charting and geo visualizations
