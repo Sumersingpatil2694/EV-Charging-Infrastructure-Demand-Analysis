@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [Introduction](#-introduction)
 - [Features](#-features)
@@ -35,13 +35,13 @@
 
 ---
 
-## 🎯 Introduction
+##  Introduction
 
 **EV Charging Infrastructure Demand Analysis** is a premium dark-theme analytics project designed to study **EV adoption**, **charging infrastructure adequacy**, and **investment priority** across European city-level markets. The solution combines a **Streamlit dashboard**, **MySQL database**, **SQL analytical views**, **CSV-based exploration**, and a **Jupyter notebook workflow** to support smarter charging network expansion.
 
 The project follows a practical analytics pipeline: EV data is loaded from CSV → cleaned and standardized → stored in MySQL → queried through reusable SQL views → presented in an interactive Streamlit dashboard with KPIs, filters, trends, maps, and downloadable insights.
 
-### 🌟 Why This Project Stands Out
+###  Why This Project Stands Out
 
 -  **14,120+ records** in the provided EV dataset
 -  **27 analytical fields** covering EV demand, station density, coverage gap, growth, and priority score
@@ -53,9 +53,9 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔍 Core Features
+###  Core Features
 
 | Feature | Description |
 |---------|-------------|
@@ -68,7 +68,7 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 | **Forecast Support** | Optional forecast tab when compatible forecast files are available |
 | **Data Export** | Download filtered dataset and priority-city outputs as CSV |
 
-### 🎨 Dashboard Experience
+###  Dashboard Experience
 
 -  **Dark Premium Theme** with black and neon-green design language
 -  **Executive KPI Cards** for EV demand, infrastructure availability, and coverage gaps
@@ -77,7 +77,7 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 -  **Interactive Plotly Visuals** including bar, line, pie, bubble, and map charts
 -  **Download Actions** for quick export of filtered business insights
 
-### 📊 Analytical Highlights
+###  Analytical Highlights
 
 - **Overview Analytics** for market-level KPIs and infrastructure health
 - **Priority Cities Ranking** to identify top investment opportunities
@@ -88,7 +88,7 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend / Analytics
 - **Python 3.9+**
@@ -118,7 +118,7 @@ The project follows a practical analytics pipeline: EV data is loaded from CSV �
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -198,7 +198,7 @@ streamlit run app.py
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Supported Files
 
