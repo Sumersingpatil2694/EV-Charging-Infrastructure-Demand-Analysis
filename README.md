@@ -41,7 +41,7 @@
 
 The project follows a practical analytics pipeline: EV data is loaded from CSV → cleaned and standardized → stored in MySQL → queried through reusable SQL views → presented in an interactive Streamlit dashboard with KPIs, filters, trends, maps, and downloadable insights.
 
-###  Why This Project Stands Out
+###  Why This Project Stands
 
 -  **14,120+ records** in the provided EV dataset
 -  **27 analytical fields** covering EV demand, station density, coverage gap, growth, and priority score
