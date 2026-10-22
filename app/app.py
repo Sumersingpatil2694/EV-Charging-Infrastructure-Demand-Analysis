@@ -701,7 +701,7 @@ def prepare_forecast_frame(frame: pd.DataFrame | None) -> pd.DataFrame | None:
 @st.cache_data(show_spinner=False)
 def load_data() -> pd.DataFrame | None:
     data_paths = [
-        # Streamlit Cloud — app/ folder ke andar se relative paths
+        # Streamlit Cloud — relative paths from inside the app/ folder
         "Outputs/Data/ev_data_cleaned_final.csv",
         "../Outputs/Data/ev_data_cleaned_final.csv",
         "Data/europe_ev_dataset.csv",
@@ -752,7 +752,7 @@ def load_data() -> pd.DataFrame | None:
 @st.cache_data(show_spinner=False)
 def load_optional_csv(file_name: str) -> pd.DataFrame | None:
     candidate_paths = [
-        # Streamlit Cloud paths (app/ folder ke andar se)
+        # Streamlit Cloud paths (from inside the app/ folder)
         f"Outputs/Model Outputs/{file_name}",
         f"../Outputs/Model Outputs/{file_name}",
         f"Outputs/Data/{file_name}",
@@ -1250,7 +1250,7 @@ with tab1:
         st.plotly_chart(fig, use_container_width=True)
 
     st.markdown(
-        "<div class='insight-box'><b>Quick read:</b> Jahan EV demand fast grow kar rahi hai aur coverage gap bhi high hai, waha charging expansion ka ROI strongest hoga. Metro markets demand lead karte hain, lekin mid-tier cities mein underserved pockets clearly dikhte hain.</div>",
+        "<div class='insight-box'><b>Quick read:</b> Where EV demand is growing fast and the coverage gap is also high, charging expansion will deliver the strongest ROI. Metro markets lead demand, but underserved pockets are clearly visible in mid-tier cities.</div>",
         unsafe_allow_html=True,
     )
 
@@ -1399,7 +1399,7 @@ with tab2:
     st.dataframe(display_df, use_container_width=True, height=460)
 
     st.markdown(
-        "<div class='insight-box'><b>How to read the bubble chart:</b> Upper-left zone ka matlab hai higher EV demand with relatively fewer stations — yehi true charging-desert opportunities hain. Labels intentionally hover pe rakhe gaye hain taaki overlap na ho.</div>",
+        "<div class='insight-box'><b>How to read the bubble chart:</b> The upper-left zone means higher EV demand with relatively fewer stations — these are the true charging-desert opportunities. Labels are intentionally shown on hover to avoid overlap.</div>",
         unsafe_allow_html=True,
     )
 
@@ -1410,7 +1410,7 @@ with tab2:
 with tab3:
     section_header(
         "Interactive EV Trends",
-        "Spaghetti chart ko interactive bana diya gaya hai — metric aur country selection dono available hain.",
+        "The spaghetti chart is now interactive — both metric and country selection are available.",
     )
 
     metric_map = {
@@ -1430,13 +1430,13 @@ with tab3:
             "Countries for Trend Comparison",
             options=sorted(monthly_summary["country"].unique()),
             default=default_trend,
-            help="Best readability ke liye 3–6 countries select karo.",
+            help="Select 3–6 countries for the best readability.",
         )
 
     col_name = metric_map[selected_metric]
     trend_df = monthly_summary[monthly_summary["country"].isin(trend_countries)].copy()
     if trend_df.empty:
-        st.info("Trend chart ke liye kam se kam ek country select karo.")
+        st.info("Select at least one country to display the trend chart.")
     else:
         fig = px.line(
             trend_df,
@@ -1474,7 +1474,7 @@ with tab3:
             "Countries for YoY Comparison",
             options=yoy_options,
             default=default_yoy,
-            help="Best readability ke liye 2–3 countries select karo.",
+            help="Select 2–3 countries for the best readability.",
         )
         yoy_view = yearly[yearly["country"].isin(yoy_countries)].dropna(subset=["yoy_ev_pct", "yoy_st_pct"]).copy()
         yoy_long = yoy_view.melt(
@@ -1526,7 +1526,7 @@ with tab3:
         st.plotly_chart(fig, use_container_width=True)
 
     st.markdown(
-        "<div class='insight-box'><b>Decision lens:</b> Agar EV growth bars consistently station growth se upar hain, toh demand-supply imbalance widen ho raha hai — us market ko proactive infrastructure investment chahiye.</div>",
+        "<div class='insight-box'><b>Decision lens:</b> If EV growth bars are consistently above station growth, the demand-supply imbalance is widening — that market needs proactive infrastructure investment.</div>",
         unsafe_allow_html=True,
     )
 
@@ -1593,7 +1593,7 @@ with tab4:
         )
         st.plotly_chart(fig_map, use_container_width=True)
     else:
-        st.warning("Latitude/Longitude columns available nahi hain, isliye map render nahi ho pa raha.")
+        st.warning("Latitude/Longitude columns are not available, so the map cannot be rendered.")
 
 
 # =============================================================================
@@ -1602,7 +1602,7 @@ with tab4:
 with tab5:
     section_header(
         "Feature Importance",
-        "Raw technical labels ko business-friendly naming ke saath present kiya gaya hai.",
+        "Raw technical labels are presented with business-friendly naming.",
     )
 
     left, right = st.columns([1.45, 1])
@@ -1623,7 +1623,7 @@ with tab5:
             apply_chart_theme(fig, height=540)
             st.plotly_chart(fig, use_container_width=True)
         else:
-            st.info("Feature importance available nahi hai for current dataset structure.")
+            st.info("Feature importance is not available for the current dataset structure.")
 
     with right:
         metric_1, metric_2, metric_3 = st.columns(3)
@@ -1662,7 +1662,7 @@ with tab5:
 with tab6:
     section_header(
         "SQL Insights",
-        "Business questions ko dashboard-ready views mein convert kiya gaya hai.",
+        "Business questions are converted into dashboard-ready views.",
     )
 
     query_choice = st.radio(
@@ -1914,7 +1914,7 @@ with tab7:
     )
 
     if forecast_df is None or forecast_df.empty or "date" not in forecast_df.columns:
-        st.info("Forecast tab ready hai. Bas `forecast.csv` add karo with columns like `ds/yhat` ya `date/forecast`, aur chart yahan render ho jayega.")
+        st.info("The Forecast tab is ready. Just add a `forecast.csv` with columns like `ds/yhat` or `date/forecast`, and the chart will render here.")
     else:
         forecast_view = forecast_df.copy()
         if "country" in forecast_view.columns:
@@ -1933,7 +1933,7 @@ with tab7:
             y_col = numeric_cols[0] if numeric_cols else None
 
         if y_col is None:
-            st.warning("Forecast CSV mil gaya, lekin numeric forecast column detect nahi hua.")
+            st.warning("The forecast CSV was found, but no numeric forecast column was detected.")
         else:
             if "country" in forecast_view.columns:
                 fig = px.line(
